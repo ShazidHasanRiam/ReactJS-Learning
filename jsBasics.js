@@ -106,3 +106,24 @@ switch(weekDay){
     default:
         console.log("Its not even a day!");
 }
+
+//Equality Check
+// = value check
+// === value & data type change (strict equality check)
+
+var a = 2;
+var b = '2';
+
+console.log(a===b);
+
+
+//Relational Check
+var balance = 120;
+var pizza = 100;
+console.log(balance>=pizza);
+
+//Ternary Operator
+var result = balance > pizza ? 'pizza khabo' : 'pizza khabona';
+console.log(result);
+
+
